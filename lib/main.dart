@@ -23,7 +23,7 @@ class AnotherPage extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.of(context).pop(context);
           },
         ),
       ),
@@ -37,7 +37,7 @@ class AnotherPage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.of(context).pop(context);
               },
               child: Text('Go Back'),
             ),
@@ -62,8 +62,8 @@ class _MainAppState extends State<MainApp> {
       case 'viewAll':
         print('View All tapped!');
         // Navigate to the new page
-        Navigator.push(
-          context,
+        Navigator.of(context).push(
+          // context,
           MaterialPageRoute(builder: (context) => AnotherPage()),
         );
         break;
@@ -392,8 +392,8 @@ class _MainAppState extends State<MainApp> {
                         GestureDetector(
                           onTap: () {
                             // handleTap('viewAll', context);
-                            Navigator.push(
-                              context,
+                            Navigator.of(context).push(
+                              // context,
                               MaterialPageRoute(builder: (context) => AnotherPage()),
                             );
                           },
@@ -498,8 +498,8 @@ class _MainAppState extends State<MainApp> {
                         GestureDetector(
                           onTap: () {
                             // handleTap('viewAll', context);
-                            Navigator.push(
-                              context,
+                            Navigator.of(context).push(
+                              // context,
                               MaterialPageRoute(builder: (context) => AnotherPage()),
                             );
                           },
