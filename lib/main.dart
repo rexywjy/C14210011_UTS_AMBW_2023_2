@@ -546,6 +546,144 @@ class _MainAppState extends State<MainApp> {
                                 ),
                               ),
                             ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/sushi.jpg'),
+                                      // imageProvider: NetworkImage('https://www.thespruceeats.com/thmb/KKVYHEcAN6Jt7yvULfCB4r3ad30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-sushi-5079606-hero-01-e5a0a26f194a49478f84e04193baaefa.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Sushi", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 40.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/corn dog.jpg'),
+                                      // imageProvider: NetworkImage('https://cdn0-production-images-kly.akamaized.net/3RZxxR43-zW-NhwMBetL4z2W7dk=/0x138:2048x1292/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3166919/original/012001300_1593576450-shutterstock_1542386222.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.6/5"),],
+                                      title: Text("Corn Dog", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 20.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/toast.jpg'),
+                                      // imageProvider: NetworkImage('https://assets-pergikuliner.com/3IVIkXCLccl-2kTVM3-1IRlyAMk=/fit-in/1366x768/smart/filters:no_upscale()/https://assets-pergikuliner.com/uploads/image/picture/1665405/picture-1572691901.JPG'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.7/5"),],
+                                      title: Text("Toast", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 12.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/macncheese.jpg'),
+                                      // imageProvider: NetworkImage('https://www.allrecipes.com/thmb/e8uotDI18ieXNBY0KpmtGKbxMRM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Mac and Cheese", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 30.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/burger.jpg'),
+                                      // imageProvider: NetworkImage('https://images.deliveryhero.io/image/foodpanda/recipes/burger-patty-recipe-1.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.9/5"),],
+                                      title: Text("Burger", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 50.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/pizza.jpg'),
+                                      // imageProvider: NetworkImage('https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Pizza", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 80.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
                           ],
                           
                         ),
@@ -588,6 +726,143 @@ class _MainAppState extends State<MainApp> {
                               padding: EdgeInsetsDirectional.only(start: 10),
                             ),
                             Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/sushi.jpg'),
+                                      // imageProvider: NetworkImage('https://www.thespruceeats.com/thmb/KKVYHEcAN6Jt7yvULfCB4r3ad30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-sushi-5079606-hero-01-e5a0a26f194a49478f84e04193baaefa.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Sushi", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 40.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/corn dog.jpg'),
+                                      // imageProvider: NetworkImage('https://cdn0-production-images-kly.akamaized.net/3RZxxR43-zW-NhwMBetL4z2W7dk=/0x138:2048x1292/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3166919/original/012001300_1593576450-shutterstock_1542386222.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.6/5"),],
+                                      title: Text("Corn Dog", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 20.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/toast.jpg'),
+                                      // imageProvider: NetworkImage('https://assets-pergikuliner.com/3IVIkXCLccl-2kTVM3-1IRlyAMk=/fit-in/1366x768/smart/filters:no_upscale()/https://assets-pergikuliner.com/uploads/image/picture/1665405/picture-1572691901.JPG'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.7/5"),],
+                                      title: Text("Toast", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 12.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/macncheese.jpg'),
+                                      // imageProvider: NetworkImage('https://www.allrecipes.com/thmb/e8uotDI18ieXNBY0KpmtGKbxMRM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Mac and Cheese", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 30.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/burger.jpg'),
+                                      // imageProvider: NetworkImage('https://images.deliveryhero.io/image/foodpanda/recipes/burger-patty-recipe-1.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.9/5"),],
+                                      title: Text("Burger", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 50.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(5),
+                              child: Material(
+                                elevation: 5,
+                                child: Container(
+                                  margin: EdgeInsets.all(0),
+                                  padding: EdgeInsets.all(0),
+                                  decoration: BoxDecoration(
+                                    // color: Colors.amber[300],
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  child: FillImageCard(
+                                      width: 200,
+                                      heightImage: 140,
+                                      imageProvider: AssetImage('assets/images/pizza.jpg'),
+                                      // imageProvider: NetworkImage('https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg'),
+                                      tags: [Icon(Icons.star, color: Colors.amber,), Text("4.8/5"),],
+                                      title: Text("Pizza", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                                      description: Text('IDR 80.000,00'),
+                                    )
+                                ),
+                              ),
+                            ),Container(
                               margin: EdgeInsets.all(5),
                               child: Material(
                                 elevation: 5,
