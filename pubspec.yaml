@@ -20,6 +20,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/images/1.jpg
     - assets/images/burger.jpg
     - assets/images/pizza.jpg
     - assets/images/sushi.jpg
@@ -27,3 +28,8 @@ flutter:
     - assets/images/corn dog.jpg
     - assets/images/macncheese.jpg
     - assets/images/toast.jpg
+    - assets/images/nomnom.png
+
+    - assets/images/mcd.jpg
+    - assets/images/kfc.jpg
+    - assets/images/kfc2.jpeg
