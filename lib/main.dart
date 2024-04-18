@@ -109,6 +109,7 @@ class _MainAppState extends State<MainApp> {
 
     final ThemeData theme = Theme.of(context);
     return MaterialApp(
+      title: 'NOMNOM',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
@@ -224,7 +225,7 @@ class _MainAppState extends State<MainApp> {
                       options: CarouselOptions(
                         height: 200.0,
                         aspectRatio: 16/9,
-                        viewportFraction: 0.9,
+                        viewportFraction: 0.8,
                         initialPage: 0,
                         enableInfiniteScroll: true,
                         reverse: false,
